@@ -1,7 +1,7 @@
 
 package day_1;
 
-public class  {
+public class Introduction  {
 
 	public static void main(String[] args) {
 		System.out.println("Welcome Guys");
