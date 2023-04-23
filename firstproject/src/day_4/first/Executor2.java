@@ -6,7 +6,6 @@ public class Executor2 {
 		obj.methodDefault();
 		obj.methodProtected();
 		
-		@SuppressWarnings("unused")
 		Base obj1 = new Base();
 	}
 

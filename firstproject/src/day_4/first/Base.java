@@ -14,7 +14,6 @@ public class Base {
 		System.out.println("Public access base class");
 		System.out.println("Public variable: "+varPublic);
 	}
-	@SuppressWarnings("unused")
 	private void methodPrivate() {
 		System.out.println("Private access base class");
 		System.out.println("Private variable: "+varPrivate);
@@ -24,7 +23,6 @@ public class Base {
 		System.out.println("Protected variable: "+varProtected);
 	}
 	public static void main(String[] args) {
-		@SuppressWarnings("unused")
 		Base obj = new Base();		//object creation
 		//obj.m
 	}
